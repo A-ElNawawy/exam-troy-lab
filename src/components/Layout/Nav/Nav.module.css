@@ -1,0 +1,45 @@
+.nav {
+  height: var(--nav-height);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav ul {
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.nav li {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  row-gap: 5px;
+  color: var(--text-gray-color);
+}
+
+.active > * {
+  color: var(--main-color-light);
+}
+
+.active::before {
+  content: "";
+  width: 19px;
+  height: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: var(--main-color);
+  position: relative;
+  top: -10px;
+}
+
+.line {
+  background-color: #f3f3f3;
+  width: 116px;
+  height: 6px;
+  border-radius: 3px;
+  margin: auto;
+}

@@ -1,0 +1,26 @@
+.header {
+  background-image: linear-gradient(var(--main-color-dark), #179489);
+  height: 104px;
+}
+
+.main {
+  background-color: #e9ebef;
+  height: var(--main-height);
+  overflow: auto;
+}
+
+.content {
+  height: 1000px;
+  background-color: rgb(255, 200, 0);
+
+  width: calc(100vw - var(--aside-width));
+}
+
+.aside {
+  background-color: var(--main-color-light);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: var(--aside-width);
+  height: var(--main-height);
+}
