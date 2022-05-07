@@ -1,0 +1,10 @@
+.Category {
+  background-color: white;
+  color: var(--text-green-color);
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
