@@ -1,25 +1,43 @@
+@font-face {
+  font-family: "SST-Arabic-Medium";
+  src: url(./fonts/SST-Arabic-Medium.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 :root {
   /* colors */
   --main-color: #0fa59a;
   --main-color-light: #13a69a;
   --main-color-dark: #245550;
 
+  --label-bg-color: #e8f8f7;
+
   --text-gray-color: #818181;
+  --text-gray-color-dark: #363636;
+  --text-green-color: var(--main-color);
 
   /* dimensions */
   --nav-height: 84px;
   --main-height: calc(100vh - var(--nav-height));
   --aside-width: 25vw;
 }
+
 body {
   direction: rtl;
+  font-family: "SST-Arabic-Medium", sans-serif;
 }
 
 ul {
   list-style: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }

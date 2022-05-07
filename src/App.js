@@ -1,9 +1,10 @@
 import Layout from "./components/Layout/Layout";
+import Products from "./components/Products/Products";
 
 function App() {
   return (
     <div className='App'>
-      <Layout />
+      <Layout aside={"aside"} content={<Products />} />
     </div>
   );
 }
