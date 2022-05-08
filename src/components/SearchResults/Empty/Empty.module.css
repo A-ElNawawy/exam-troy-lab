@@ -1,0 +1,9 @@
+.Empty {
+  color: rgba(232, 248, 247, 0.51);
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  height: 100vh;
+  max-height: 100%;
+}

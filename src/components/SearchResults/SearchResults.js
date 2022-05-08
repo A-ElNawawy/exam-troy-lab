@@ -1,6 +1,8 @@
+import Empty from "./Empty/Empty";
+import Result from "./Result/Result";
+
 import SquareButton from "./../UIs/SquareButton/SquareButton";
 
-import empty from "./assets/empty.svg";
 import nounUser from "./assets/nounUser.svg";
 import searchByNumber from "./assets/searchByNumber.svg";
 import search from "./assets/search.svg";
@@ -30,10 +32,7 @@ const SearchResults = () => {
         </SquareButton>
       </div>
 
-      <div className={styles.results}>
-        <img src={empty} alt='empty' />
-        <p>يجب عليك اختيار طالب اولا</p>
-      </div>
+      {false ? <Empty /> : <Result />}
     </div>
   );
 };
