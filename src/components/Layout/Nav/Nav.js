@@ -12,25 +12,39 @@ const Nav = () => {
   return (
     <nav className={styles.nav}>
       <ul>
-        <li className={styles.active}>
-          <img src={home} alt='home' />
-          <p>{data.home}</p>
-        </li>
         <li>
-          <img src={wallet} alt='wallet' />
-          <p>{data.wallet}</p>
+          <a className={styles.active} href='#'>
+            <img src={home} alt='home' />
+            <p>{data.home}</p>
+          </a>
         </li>
+
         <li>
-          <img src={paper} alt='paper' />
-          <p>{data.sales}</p>
+          <a href='#'>
+            <img src={wallet} alt='wallet' />
+            <p>{data.wallet}</p>
+          </a>
         </li>
+
         <li>
-          <img src={cart} alt='cart' />
-          <p>{data.preOrders}</p>
+          <a href='#'>
+            <img src={paper} alt='paper' />
+            <p>{data.sales}</p>
+          </a>
         </li>
+
         <li>
-          <img src={dots} alt='dots' />
-          <p>{data.more}</p>
+          <a href='#'>
+            <img src={cart} alt='cart' />
+            <p>{data.preOrders}</p>
+          </a>
+        </li>
+
+        <li>
+          <a href='#'>
+            <img src={dots} alt='dots' />
+            <p>{data.more}</p>
+          </a>
         </li>
       </ul>
 

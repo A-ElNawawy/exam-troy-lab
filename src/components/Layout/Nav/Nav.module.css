@@ -6,19 +6,20 @@
 }
 
 .nav ul {
-  padding: 10px 0;
+  padding: 0 0 10px 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.nav li {
+.nav li a {
   display: -ms-grid;
   display: grid;
   justify-items: center;
   row-gap: 5px;
   color: var(--text-gray-color);
+  font-size: 11px;
 }
 
 .active > * {
@@ -32,8 +33,6 @@
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   background-color: var(--main-color);
-  position: relative;
-  top: -10px;
 }
 
 .line {
