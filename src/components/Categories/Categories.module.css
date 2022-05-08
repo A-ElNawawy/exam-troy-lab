@@ -10,11 +10,3 @@
 .Categories::-webkit-scrollbar {
   display: none;
 }
-
-.all {
-  background-color: var(--main-color);
-  color: var(--label-bg-color);
-  padding: 12px;
-  border-radius: 10px;
-  font-size: 15px;
-}

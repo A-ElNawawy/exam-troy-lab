@@ -1,4 +1,5 @@
 import Category from "./Category/Category";
+import SquareButton from "./../UIs/SquareButton/SquareButton";
 
 import { data } from "./data/data";
 
@@ -11,7 +12,7 @@ const CategoriesList = data.map((category) => (
 const Categories = () => {
   return (
     <div className={styles.Categories}>
-      <button className={styles.all}>الكل</button>
+      <SquareButton bgColor='green'>الكل</SquareButton>
       {CategoriesList}
     </div>
   );

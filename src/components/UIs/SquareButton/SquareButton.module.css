@@ -1,0 +1,19 @@
+.squareButton {
+  display: block;
+  color: var(--label-bg-color);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.green {
+  background-color: var(--main-color);
+}
+
+.yellow {
+  background-image: var(--gradient-yellow);
+}
+
+.blue {
+  background-image: var(--gradient-blue);
+}
