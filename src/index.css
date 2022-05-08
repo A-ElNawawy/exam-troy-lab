@@ -21,6 +21,9 @@
   --text-gray-color-dark: #363636;
   --text-green-color: var(--main-color);
 
+  --gradient-yellow: linear-gradient(#ffc85a, #ff9900);
+  --gradient-blue: linear-gradient(#53baff, #0c75ec);
+
   /* dimensions */
   --nav-height: 84px;
   --main-height: calc(100vh - var(--nav-height));
@@ -59,4 +62,9 @@ a {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   background-color: var(--main-color);
+}
+
+input {
+  border: none;
+  outline: none;
 }

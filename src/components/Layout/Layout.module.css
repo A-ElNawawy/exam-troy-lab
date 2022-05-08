@@ -11,6 +11,8 @@
 
 .content {
   width: calc(100vw - var(--aside-width));
+  height: 100vh;
+  max-height: 100%;
 }
 
 .aside {
@@ -19,5 +21,7 @@
   left: 0;
   top: 0;
   width: var(--aside-width);
+  min-width: 200px;
   height: var(--main-height);
+  padding: 35px 15px;
 }

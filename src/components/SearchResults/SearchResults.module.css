@@ -1,0 +1,46 @@
+.SearchResults {
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.inputField {
+  background-color: white;
+  padding: 16px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+  max-width: 50%;
+}
+
+.inputField label {
+  display: flex;
+  width: 50%;
+  flex-grow: 1;
+}
+
+.inputField input {
+  color: var(--text-gray-color);
+  font-size: 16px;
+  max-width: 100%;
+}
+
+.results {
+  color: rgba(232, 248, 247, 0.51);
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  height: 100vh;
+  max-height: 100%;
+}
