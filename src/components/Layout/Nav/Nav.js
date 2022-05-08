@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 import home from "./assets/home.svg";
 import wallet from "./assets/wallet.svg";
 import paper from "./assets/paper.svg";
@@ -13,31 +15,31 @@ const Nav = () => {
     <nav className={styles.nav}>
       <ul>
         <li>
-          <a className={styles.active} href='#'>
+          <NavLink to='/'>
             <img src={home} alt='home' />
             <p>{data.home}</p>
-          </a>
+          </NavLink>
         </li>
 
         <li>
-          <a href='#'>
+          <NavLink to='/wallet'>
             <img src={wallet} alt='wallet' />
             <p>{data.wallet}</p>
-          </a>
+          </NavLink>
         </li>
 
         <li>
-          <a href='#'>
+          <NavLink to='/sales'>
             <img src={paper} alt='paper' />
             <p>{data.sales}</p>
-          </a>
+          </NavLink>
         </li>
 
         <li>
-          <a href='#'>
+          <NavLink to='/preOrders'>
             <img src={cart} alt='cart' />
             <p>{data.preOrders}</p>
-          </a>
+          </NavLink>
         </li>
 
         <li>

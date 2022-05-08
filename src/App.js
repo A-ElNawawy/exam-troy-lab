@@ -1,21 +1,21 @@
-import Categories from "./components/Categories/Categories";
-import Layout from "./components/Layout/Layout";
-import Products from "./components/Products/Products";
+import { Route, Routes } from "react-router-dom";
 
-function App() {
+import Home from "./pages/Home/Home";
+import PreOrders from "./pages/PreOrders/PreOrders";
+import NotFound from "./pages/NotFound/NotFound";
+
+const App = () => {
   return (
     <div className='App'>
-      <Layout
-        aside={"aside"}
-        content={
-          <>
-            <Categories />
-            <Products />
-          </>
-        }
-      />
+      <Routes>
+        <Route path='/preOrders' element={<PreOrders />} />
+
+        <Route path='/' element={<Home />} />
+
+        <Route path='*' element={<NotFound />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;
