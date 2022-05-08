@@ -13,7 +13,7 @@ const SearchResults = () => {
       <div className={styles.controls}>
         <div className={styles.inputField}>
           <label>
-            <input type='text' name='' id='' placeholder='اسم الطالب' />
+            <input type='text' placeholder='اسم الطالب' />
           </label>
 
           <button className={styles.search}>

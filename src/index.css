@@ -27,7 +27,7 @@
   /* dimensions */
   --nav-height: 84px;
   --main-height: calc(100vh - var(--nav-height));
-  --aside-width: 25vw;
+  --aside-width: 370px;
 }
 
 body {
