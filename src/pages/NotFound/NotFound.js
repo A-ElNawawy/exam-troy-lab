@@ -7,8 +7,13 @@ const NotFound = () => {
       content={
         <div
           style={{
-            textAlign: "center",
-            fontSize: "30px",
+            fontFamily: "Tajawal, sans-serif",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            fontSize: "40px",
+            height: "100vh",
+            maxHeight: "100%",
           }}
         >
           Not Found
