@@ -23,5 +23,5 @@
   width: var(--aside-width);
   min-width: 200px;
   height: var(--main-height);
-  padding: 35px 15px;
+  padding: 35px 15px 0;
 }
