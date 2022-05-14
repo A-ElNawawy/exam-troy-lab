@@ -51,8 +51,9 @@ a {
   color: unset;
 }
 
-.active > * {
+.active * {
   color: var(--main-color-light);
+  fill: #13a69a;
 }
 
 .active::before {

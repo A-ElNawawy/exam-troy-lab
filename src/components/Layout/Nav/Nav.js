@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
 
-import home from "./assets/home.svg";
-import wallet from "./assets/wallet.svg";
-import paper from "./assets/paper.svg";
-import cart from "./assets/cart.svg";
+import Home from "./assets/home.js";
+import Wallet from "./assets/wallet.js";
+import Paper from "./assets/paper.js";
+import Cart from "./assets/cart.js";
+
 import dots from "./assets/dots.svg";
 
 import data from "./data/data.json";
@@ -16,28 +17,28 @@ const Nav = () => {
       <ul>
         <li>
           <NavLink to='/'>
-            <img src={home} alt='home' />
+            <Home />
             <p>{data.home}</p>
           </NavLink>
         </li>
 
         <li>
           <NavLink to='/wallet'>
-            <img src={wallet} alt='wallet' />
+            <Wallet />
             <p>{data.wallet}</p>
           </NavLink>
         </li>
 
         <li>
           <NavLink to='/sales'>
-            <img src={paper} alt='paper' />
+            <Paper />
             <p>{data.sales}</p>
           </NavLink>
         </li>
 
         <li>
           <NavLink to='/preOrders'>
-            <img src={cart} alt='cart' />
+            <Cart />
             <p>{data.preOrders}</p>
           </NavLink>
         </li>
