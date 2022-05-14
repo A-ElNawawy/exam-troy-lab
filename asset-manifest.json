@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/exam-troy-lab/static/css/main.b17f13b3.css",
+    "main.js": "/exam-troy-lab/static/js/main.f51d672f.js",
+    "static/media/SST-Arabic-Medium.ttf": "/exam-troy-lab/static/media/SST-Arabic-Medium.0f8fe38954055062e91c.ttf",
+    "static/media/oreo.png": "/exam-troy-lab/static/media/oreo.4b61f14bbb4ed1af4c3c.png",
+    "static/media/mAm.png": "/exam-troy-lab/static/media/mAm.359987baea44391d80bb.png",
+    "static/media/breakfast.png": "/exam-troy-lab/static/media/breakfast.2da6c9533f71a1510b4b.png",
+    "static/media/lays.png": "/exam-troy-lab/static/media/lays.53b2d24dd68acdf2f314.png",
+    "static/media/juice.png": "/exam-troy-lab/static/media/juice.1f791e84d48742a72a3a.png",
+    "static/media/pizza.svg": "/exam-troy-lab/static/media/pizza.19f9e0785c7391ab68756e92d652525f.svg",
+    "static/media/hamburger.svg": "/exam-troy-lab/static/media/hamburger.5e48d4fa0f28b9636e5b7cf572a83bcf.svg",
+    "static/media/coffee.svg": "/exam-troy-lab/static/media/coffee.a852711a36bbce246c80da8a2a76b8c8.svg",
+    "static/media/empty.svg": "/exam-troy-lab/static/media/empty.9c6e422a791a8bf33f6647908cdb6531.svg",
+    "static/media/nounUser.svg": "/exam-troy-lab/static/media/nounUser.09026304869ffe321c77493d1f15dc59.svg",
+    "static/media/searchByNumber.svg": "/exam-troy-lab/static/media/searchByNumber.ec0e89769de7a780eaf9b8eee02894b0.svg",
+    "index.html": "/exam-troy-lab/index.html",
+    "static/media/kcal.svg": "/exam-troy-lab/static/media/kcal.64f73e829cfd93175237f32aec41e1a4.svg",
+    "static/media/search.svg": "/exam-troy-lab/static/media/search.3448819251b9aad8453a9ee5a4bd28f2.svg",
+    "static/media/info.svg": "/exam-troy-lab/static/media/info.007e215c35b34f3db17b8b01ba9be77d.svg",
+    "static/media/dots.svg": "/exam-troy-lab/static/media/dots.f52c4629762892c327f4c6c9af1db8bd.svg",
+    "static/media/plus.svg": "/exam-troy-lab/static/media/plus.7a26de83ff9488142e483e28120782b1.svg",
+    "main.b17f13b3.css.map": "/exam-troy-lab/static/css/main.b17f13b3.css.map",
+    "main.f51d672f.js.map": "/exam-troy-lab/static/js/main.f51d672f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b17f13b3.css",
+    "static/js/main.f51d672f.js"
+  ]
+}
