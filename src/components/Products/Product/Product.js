@@ -1,3 +1,4 @@
+import Price from "./../../UIs/Price/Price";
 import info from "./../assets/info.svg";
 import kcalImg from "./../assets/kcal.svg";
 import plus from "./../assets/plus.svg";
@@ -33,11 +34,7 @@ const Product = ({ kcal, img, name, qty, price }) => {
             <span className={styles.qty_number}>{qty}</span>
           </div>
 
-          <p className={styles.price}>
-            <span className={styles.price_number}>{price} &nbsp;</span>
-
-            <span className={styles.currency}>ريال</span>
-          </p>
+          <Price price={price} />
         </div>
       </div>
     </div>

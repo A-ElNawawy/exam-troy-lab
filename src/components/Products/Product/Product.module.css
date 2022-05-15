@@ -62,11 +62,3 @@
   font-weight: bold;
   color: var(--text-green-color);
 }
-
-.price {
-  color: var(--text-green-color);
-}
-
-.price_number {
-  font-weight: bold;
-}
