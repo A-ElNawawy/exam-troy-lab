@@ -19,6 +19,7 @@
 
   --text-gray-color: #818181;
   --text-gray-color-dark: #363636;
+  --text-black-color: #242424;
   --text-green-color: var(--main-color);
 
   --gradient-yellow: linear-gradient(#ffc85a, #ff9900);
