@@ -1,0 +1,9 @@
+.Result {
+  height: 100vh;
+  max-height: 100%;
+  /*background-color: red;*/
+}
+
+.items {
+  border-radius: 10px;
+}
